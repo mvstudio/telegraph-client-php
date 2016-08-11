@@ -1,0 +1,19 @@
+{
+    "name": "mvstudio/telegraph",
+    "description": "Client for telegraph service",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Leandre Gohy",
+            "email": "leandre@mvstudio.be"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVStudio\\Telegraph\\": "src/"
+        }
+    }
+}
